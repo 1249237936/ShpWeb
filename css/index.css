@@ -19,7 +19,7 @@
 	float: left;
 }
 
-.header .list-left li a  {
+.header .list-left li a {
 	display: block;
 }
 
@@ -63,4 +63,33 @@
 	width: 175px;
 	height: 56px;
 	text-indent: -9999px;
+}
+
+.logoAndSearch-center {
+	width: 560px;
+	height: 100px;
+	background: yellow;
+	float: left;
+}
+
+.logoAndSearch-center .baby li {
+	float: left;
+	width: 36px;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	color: #ea4a36;
+	/* cup tab键 */
+	cursor: pointer;
+}
+
+.logoAndSearch-center .baby li:hover {
+	background: #FFEEE5;
+}
+
+.logoAndSearch .logoAndSearch-center .baby .current {
+	font-weight: 700;
+	color: #fff;
+	/* background: #ea4a36 !important; */
+	background: #ea4a36;
 }
