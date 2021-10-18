@@ -93,3 +93,25 @@
 	/* background: #ea4a36 !important; */
 	background: #ea4a36;
 }
+
+.logoAndSearch-center .sub .txt {
+	width: 477px;
+	height: 28px;
+	border: 1px solid #ea4a36;
+	border-right: none;
+	float: left;
+	background: url(../img/fang.png) no-repeat 15px center;
+	padding-left: 10px;
+	/* 圆角属性 */
+	/* 左上  右上  右下  左下 */
+	border-radius: 20px 0 0 20px;
+}
+
+.logoAndSearch-center .sub .btn {
+	float: left;
+	width: 70px;
+	height: 32px;
+	background: #ea4a36;
+	color: #fff;
+	border-radius: 0 20px 20px 0;
+}

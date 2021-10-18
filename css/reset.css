@@ -40,6 +40,13 @@ img{
 	/* 底部留白 */
 	display: block;
 }
+
+input,button {
+/* 去除轮廓线 */
+	outline: none;
+	border: none;
+}
+
 .clearFix::after{
 	content:"";
 	display: block;
