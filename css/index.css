@@ -39,7 +39,7 @@
 .logoAndSearch {
 	width: 1200px;
 	height: 106px;
-	background: pink;
+	/* background: pink; */
 	margin: 0 auto;
 }
 
@@ -66,10 +66,11 @@
 }
 
 .logoAndSearch-center {
-	width: 560px;
+	/* width: 560px; 
 	height: 100px;
-	background: yellow;
+	background: yellow;*/
 	float: left;
+	margin: 10px 0 0 35px;
 }
 
 .logoAndSearch-center .baby li {
@@ -97,7 +98,7 @@
 .logoAndSearch-center .sub .txt {
 	width: 477px;
 	height: 28px;
-	border: 1px solid #ea4a36;
+	border: 2px solid #ea4a36;
 	border-right: none;
 	float: left;
 	background: url(../img/fang.png) no-repeat 15px center;
@@ -114,4 +115,13 @@
 	background: #ea4a36;
 	color: #fff;
 	border-radius: 0 20px 20px 0;
+}
+
+.logoAndSearch-center .shopping {
+	margin-top: 8px;
+}
+
+.logoAndSearch-center .shopping li {
+	float: left;
+	margin-right: 5px;
 }
