@@ -191,3 +191,53 @@
 .main .detail ul li a:hover {
 	text-decoration: underline;
 }
+
+.phone {
+	width: 1200px;
+	height: 330px;
+	background: pink;
+	margin: 0 auto;
+}
+
+.phone>.box {
+	width: 269px;
+	height: 328px;
+	border: 1px solid #e1251b;
+	float: left;
+	margin-right: 24px;
+}
+
+.phone>.box a {
+	display: block;
+	height: 328px;
+	text-decoration: none;
+}
+
+.phone>.box .top {
+	height: 233px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.phone>.box .top img {
+	margin: 11px auto 0;
+}
+
+.phone>.box a p {
+	font-size: 12px;
+	color: #333;
+	padding-left: 10px;
+	line-height: 28px;
+}
+
+.phone>.box a h3 {
+	font-weight: 400;
+	font-size: 20px;
+	color: #e1251b;
+	padding-left: 10px;
+}
+
+.phone>.box a:hover p {
+	text-decoration: underline;
+	color: yellowgreen;
+}
