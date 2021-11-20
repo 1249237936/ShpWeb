@@ -157,7 +157,8 @@ body {
 .all ul {
 	float: left;
 }
-.all ul li{
+
+.all ul li {
 	float: left;
 	font-size: 16px;
 	line-height: 45px;
@@ -253,7 +254,7 @@ body {
 	margin: 10px auto 0;
 }
 
-.menu .sq {
+.menu>div {
 	width: 290px;
 	height: 340px;
 	background: #fff;
@@ -262,18 +263,21 @@ body {
 	border: 1px solid blue;
 }
 
-.menu .sq .top {
+.menu .sq .top,
+.menu .ticket .top {
 	margin: 13px 0 0 19px;
 }
 
-.menu .sq .top h3 {
+.menu .sq .top h3,
+.menu .ticket .top h3 {
 	float: left;
 	font-size: 24px;
 	color: rgb(51, 51, 51);
 	font-weight: 700;
 }
 
-.menu .sq .top span {
+.menu .sq .top span,
+.menu .ticket .top span {
 	float: left;
 	width: 14px;
 	height: 14px;
@@ -348,4 +352,70 @@ body {
 	overflow: hidden;
 	font-size: 14px;
 	margin-top: 17px;
+}
+
+.menu .last {
+	width: 290px;
+	height: 280px;
+	background: url(../img/bg.png) no-repeat 0 0;
+	margin-top: 16px;
+}
+
+.menu .last ul li {
+	padding: 0 15px;
+}
+
+.menu .last ul li a {
+	display: block;
+	height: 82px;
+	/* background: yellow; */
+}
+
+.menu .last ul li a .circle {
+	width: 66px;
+	height: 66px;
+	background: #fff url(../img/shop.webp) no-repeat center center;
+	border-radius: 50%;
+	float: left;
+	margin: 8px 0 0 7px;
+}
+
+.menu .last ul li a .description {
+	float: left;
+	color:#e33333;
+	margin-left: 7px;
+}
+
+.menu .last ul li a .description .money i {
+	font-size: 14px;
+	font-family: arial, sans-serif;
+}
+
+.menu .last ul li a .description .money span {
+	font-size: 28px;
+	font-family: impact,sans-serif;
+}
+
+.menu .last ul li a .description .nine {
+	color: #999;
+}
+
+.menu .last ul li a .description .home {
+	color: #333;
+	margin-top: 6px;
+}
+
+.menu .last ul li a h4 {
+	float: left;
+	width: 12px;
+	line-height: 15px;
+	margin-top: 13px;
+	margin-left: 17px ;
+	color: #666;
+}
+
+.menu .last ul li a em {
+	float: left;
+	margin: 33px 0 0 9px;
+	color: #666;
 }
