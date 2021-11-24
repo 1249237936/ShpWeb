@@ -86,6 +86,13 @@ body {
 	color: #ea4a36;
 	/* cup tab键 */
 	cursor: pointer;
+	position: relative;
+}
+
+.logoAndSearch-center .baby li img {
+	position: absolute;
+	left: 20px;
+	top: -20px;
 }
 
 .logoAndSearch-center .baby li:hover {
