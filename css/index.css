@@ -204,6 +204,68 @@ body {
 	text-decoration: underline;
 }
 
+.main .banner {
+	width: 730px;
+	height: 454px;
+	background: yellowgreen;
+	float: left;
+	margin: 5px 0 0 5px;
+}
+
+.main .banner {
+	position: relative;
+}
+
+.main .banner>span {
+	width: 20px;
+	height: 30px;
+	background: rgba(0,0,0,.3);
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 24px;
+	border-radius: 0 15px 15px 0;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -15px;
+	display: none;
+	cursor: pointer;
+}
+
+.banner:hover>span {
+	display: block;
+}
+
+.main .banner>ol {
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	bottom: 15px;
+	background: rgba(255,255,255,0.5);
+	border-radius: 10px;
+}
+
+.main .banner>ol .current {
+	background: orangered;
+}
+
+.main .banner>ol>li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	border-radius: 50%;
+	margin: 3px;
+	margin-bottom: 2px;
+	
+}
+.main .banner .rihgtBtn {
+	left: auto;
+	right: 0;
+	border-radius: 15px 0 0 15px;
+}
+
 .phone {
 	width: 1200px;
 	height: 330px;
