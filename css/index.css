@@ -1,5 +1,6 @@
 body {
 	height: 10000px;
+	overflow-x: hidden;
 }
 
 .header-wrap {
@@ -147,6 +148,7 @@ body {
 	height: 45px;
 	/* background: pink; */
 	margin: 0 auto;
+	position: relative;
 }
 
 .all h2 {
@@ -246,7 +248,7 @@ body {
 	border-radius: 10px;
 }
 
-.main .banner>ol .current {
+.main .banner>ol li.current {
 	background: orangered;
 }
 
@@ -487,4 +489,43 @@ body {
 	float: left;
 	margin: 33px 0 0 9px;
 	color: #666;
+}
+
+.man {
+	width: 360px;
+	height: 800px;
+	background: url(../img/man.png) no-repeat 0 0;
+	position: absolute;
+	left: -360px;
+	top: 0;
+}
+
+.woman {
+	width: 360px;
+	height: 800px;
+	background: url(../img/woman.png) no-repeat 0 0;
+	position: absolute;
+	right: -360px;
+	top: 0;
+}
+
+.advLeftBottom {
+	width: 360px;
+	height: 570px;
+	background: url(../img/qiuLeft.png) no-repeat 0 0;
+	position: fixed;
+	left: 50%;
+	bottom: 0px;
+	z-index: -1;
+	margin-left: -960px;
+}
+.advRightBottom {
+	width: 360px;
+	height: 570px;
+	background: url(../img/qiuRight.png) no-repeat 0 0;
+	position: fixed;
+	left: 50%;
+	bottom: 0px;
+	z-index: -1;
+	margin-left: 600px;
 }
